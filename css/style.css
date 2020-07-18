@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -134,6 +133,10 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+
+.d-bloc a .icon-md {
+    color: #333;
 }
 
 .d-bloc .a-btn:hover,
@@ -262,6 +265,10 @@ a:hover {
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
+}
+
+#bloc-6 p{
+    font-size: 14px;
 }
 
 .voffset {
@@ -693,6 +700,10 @@ p {
     font-size: 11px;
 }
 
+footer p {
+    font-size: 13px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -705,7 +716,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #333!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -752,6 +763,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.darkgray {
+    color: #333!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -793,12 +808,10 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
 }
 
 .ltc-white {
