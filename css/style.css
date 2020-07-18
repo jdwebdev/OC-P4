@@ -362,6 +362,18 @@ a:hover {
     z-index: 2;
 }
 
+blockquote {
+    font-style: italic;
+}
+cite {
+    font-style: initial;
+    font-size: 16px;
+}
+
+.coordonnees {
+    font-size: 18px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
